@@ -38,13 +38,6 @@ sale price. This is a regression problem.
 8. **Model comparison** - compared all models using RMSLE (Root Mean Squared
    Log Error) and picked the best performing combination
 
-## How to run this project
-
-1. Clone this repository
-2. Place `train.csv` and `test.csv` in the same folder as the notebook
-3. Open `notebooks/final_notebook.ipynb` and run the cells in order, top to
-   bottom
-
 ## Notes
 
 - Only the XGBoost model uses a formal scikit-learn `Pipeline`, since
